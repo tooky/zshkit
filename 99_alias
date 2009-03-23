@@ -18,4 +18,4 @@ alias xmldelete="curl -X DELETE -H 'Accept: application/xml'"
 alias d1="ssh bliles@dev01.it"
 alias sr="touch tmp/restart.txt"
 alias cb="cap -s user=bliles"
-
+alias gup="git fetch origin master && git rebase origin/master"
