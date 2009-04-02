@@ -1,5 +1,6 @@
 # I want /opt/local/bin to take precedence
-path=(~/bin /opt/local/bin $path)
+#path=(~/bin /opt/local/bin $path) $path)
+path=(/opt/local/bin /opt/local/sbin /usr/local/bin /usr/local/sbin /usr/local/mysql/bin ~/src/clojure-extra/sh-script /usr/local/lib/erlang/lib/rabbitmq-server-1.5.3/scripts $path)
 
 # Allow MacPorts man pages
 manpath=($manpath /opt/local/man)
